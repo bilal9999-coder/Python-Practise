@@ -1,1 +1,1 @@
-Hello. Here I am goitn to practise python to learn it.
+Hello. Here I am going to practise python to learn it.
