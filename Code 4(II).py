@@ -1,15 +1,15 @@
 # Task 3
 
-# eng = int(input("Enter your marks in english: "))
-# urdu = int(input("Enter your marks in urdu: "))
-# maths = int(input("Enter your marks in maths: "))
+eng = int(input("Enter your marks in english: "))
+urdu = int(input("Enter your marks in urdu: "))
+maths = int(input("Enter your marks in maths: "))
 
-# dic= {}
-# dic["English"] = eng
-# dic["Urdu"] = urdu
-# dic.update({"Maths": maths})
+dic= {}
+dic["English"] = eng
+dic["Urdu"] = urdu
+dic.update({"Maths": maths})
 
-# print(dic)
+print(dic)
 
 # Task 4
 
