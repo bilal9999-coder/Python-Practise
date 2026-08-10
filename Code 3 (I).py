@@ -1,7 +1,7 @@
 # Task 1
-# a,b,c = input("Enter your 3 favourite movies: "). split(",")
-# lis = [a,b,c]
-# print(lis)
+a,b,c = input("Enter your 3 favourite movies: "). split(",")
+lis = [a,b,c]
+print(lis)
 
 # Task 2
 list = [1,"abc","abc",1]
