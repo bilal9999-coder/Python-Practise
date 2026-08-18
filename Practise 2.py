@@ -34,7 +34,7 @@ for things in orders:
             else:
                     bill = inventory[item]["stock"] * inventory[item]["price"]
                     Receipt[cost] = bill
-                    inventory[item]["stock"] -= quant
+                    inventory[item]["stock"] = 0
 
 print(Receipt,"\n")
 
