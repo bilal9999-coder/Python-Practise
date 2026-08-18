@@ -40,3 +40,5 @@ print(Receipt,"\n")
 
 for el ,th in inventory.items():
         print(el,": ",th)
+
+# End
