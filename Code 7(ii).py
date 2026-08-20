@@ -1,8 +1,14 @@
+# Global Variables -----------------------------------------------------------------------------
+
 B = "Bilal"
 Z= "Zain"
 B_Score = 0
 Z_Score = 0
 Updated = []
+
+
+
+# Functions -------------------------------------------------------------------------------------
 
 def changeScoreSingle (name:str, new_score:int) -> None:
     with open("Score.txt", "r") as f:
@@ -37,7 +43,12 @@ def addtoData ():
       global Updated
       with open("Score.txt", "w") as f:
             for words in Updated:
-                 f.writelines(f"{words}\n")
+                 f.write(f"{words}\n") # Here the Updated is like ["Bilal 3545","Zain 2332"]
+                                    
+
+                       
+
+# Logic (Code) ------------------------------------------------------------------------------------
 
 getScore()
 
