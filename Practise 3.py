@@ -1,5 +1,4 @@
 a = int(input("Enter the total students: "))
-i =0
 list = []
 
 for i in range(0,a):
