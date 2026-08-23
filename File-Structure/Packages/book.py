@@ -5,6 +5,7 @@ class Book:
     def __str__ (self):
         return f"{self.name} from {self.author}"
 
+def hello (str):
+       return f"Hello! {str}"
 
-print(f"{__name__}")    
-
+B1 = {'Name' : 'HOTD'}
